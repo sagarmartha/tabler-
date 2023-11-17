@@ -4,7 +4,7 @@ function myfunction() {
  
   if (email == 'sagar111@gmail.com' && password == '123456') {
     alert("successfull")
-    window.location.href("index2.html")
+    window.location.href("form.html")
   }
   else {
     alert{"wrong entry invalid"}
