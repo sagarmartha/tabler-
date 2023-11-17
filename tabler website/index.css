@@ -1,7 +1,17 @@
-*{
+/*{
   padding: 0;
   margin: 0;
-  background-color: blanchedalmond;
+  background: rgb(244, 241, 241);
+ 
 }
 
-
+body{
+  background: rgba(0, 0,0 , 0.5);
+  margin: 30px;
+  min-height: 100vh;
+  
+  
+}
+#navbar{
+  background: rgba(red, green, blue, alpha);
+}
