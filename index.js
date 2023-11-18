@@ -3,7 +3,7 @@ function myfunction() {
   var password = document.getElementById('password').value;
   if (email == 'sagar111@gmail.com' && password == '123456') {
     alert("successfull")
-    window.open('/tabler website/index2.html');
+    window.open('https://sagarmartha.github.io/tabler-/tabler%20website/index2.html');
   }
   else {
     alert("wrong entry invalid")
