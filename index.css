@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+   box-sizing: border-box; 
 
 }
 
@@ -10,54 +10,98 @@ body{
   background: white;
   display: flex;
   font-family:sans-serif ;
+  background-color: rgb(137, 197, 201); 
 
 }
 
 .container{
   margin: auto;
-  width: 500px;
+  width: 400px;
+  height: 380px;
   max-width: 90%;
+  
+  
+ 
+
 
 }
 .container form{
   width: 100%;
   height: 100%;
   padding: 20px;
-  background: white;
-  border-radius: 4px;
-  box-shadow: 0 8px 16px  rgba(70, 8, 8, 0.3);
+  background: linear-gradient(to right,#267871,#136a8a);
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 10px 11px 12px rgba(70, 8, 8, 0.3);
 }
 .container form h1{
   text-align: center;
   margin-bottom: 24px;
-  color: #222;
+  color: white;
 
 }
+
+.container form h3{
+  text-align: center;
+  color: white;
+}
+
 .container form .form-control{
   width: 100%;
   height: 40px;
-  background: rgb(255, 255, 255);
+  
   border-radius: 4px;
-  border: 1px solid silver;
+  background: transparent;
+  border: none;
   margin: 10px 0 18px 0;
-  padding: 0  10px;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #fff;
+
 
 }
+::placeholder {
+  color: #fff;
+}
 .container form .btn{
-  background-color: aqua;
-  margin-left: 50%;
+  background-color: transparent;
+  margin-left: 20%;
   transform: translateX(-50%);
   width: 120px;
   height: 35px;
-  background: rgb(5, 241, 56);
+  /* background: rgb(5, 241, 56); */ 
   cursor: pointer;
   font-size: 17px;
-  text-transform: uppercase;
+  border-color: white;
   color: white;
-  border-radius: 4px;
+  border-radius: 10px;
+  border: 1px solid silver;
   transition: 0.3;
+
   
 }
 .container form .btn:hover{
   opacity: 1s;
+  background-color: aliceblue;
+  color: black;
 }
+
+.container form .btn-2{
+  background-color: transparent; 
+  margin: 0;
+  border: none;
+  transform: translateX(2%);
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 17px; 
+  color: white;
+  transition: 0.3;  
+  text-decoration: none;
+  
+}
+
+
+  
+  
+
